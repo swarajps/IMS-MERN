@@ -1,0 +1,40 @@
+/* MentorProfile.css */
+
+.mentor-profile-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.mentor-profile {
+  width: 400px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.mentor-photo {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.mentor-details {
+  padding: 20px;
+}
+
+.detail {
+  margin-bottom: 10px;
+}
+
+.detail-label {
+  font-weight: bold;
+}
+
+.detail-value {
+  margin-left: 10px;
+}

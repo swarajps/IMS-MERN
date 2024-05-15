@@ -1,0 +1,34 @@
+.view-course-container {
+    margin: 20px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.course-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.course-table th, .course-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.course-table th {
+    background-color: #f2f2f2;
+}
+
+.edit-button, .delete-button {
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+}
+
+.edit-button:hover, .delete-button:hover {
+    background-color: #0056b3;
+}
